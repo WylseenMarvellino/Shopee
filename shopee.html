@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopee</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+      min-height: 200vh;
+      background-color: white;
+      }
+
+      header{
+        position: sticky;
+        top: 0;
+      }
+      
+      header.shopee-top div.container  {
+        background: linear-gradient(-180deg, #f53d2d, #f63);
+        color: red;
+        height: 150px;
+        position: sticky;
+        width: 100%;
+        gap: 100px;
+        top: 0;
+      }
+
+      header.shopee-top div.container nav a.nav-item{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 15px;
+        float:left ;
+        line-height: 10px;
+        position: sticky;
+        top: 0;
+      }
+
+      header.shopee-top div.container nav a.nav-items{
+        color: white;
+        float: right;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 15px;
+        line-height: 10px;
+        position: sticky;
+        top: 0;
+      }
+
+      header.shopee-top div.container nav a:hover{
+        color: white;
+      }
+
+      header.shopee-top div.container nav a.nav-items:hover{
+        color: white;
+      }
+
+      header.shopee-top div.container nav div.sidebar{
+        display: flex;
+        margin: 0;
+        top: 0;
+        position: sticky;
+        line-height: 10px;
+      }
+
+      header.shopee-top div.container nav div.sidebar img.imgshopee{
+        height: 90px;
+        width: 130px;
+        padding: -30px;
+      }
+
+      header.shopee-top div.container nav div.sidebar form{
+        padding: -30px;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        display: flex;
+        height: 36px;
+        top: 0;
+        position: sticky;
+      }
+
+      header.shopee-top div.container nav div.sidebar form input.search-heres{
+        width: 3000px;
+        padding: 5px 10px;
+        height: 36px;
+        top: 0;
+        position: sticky;
+        line-height: 10px;
+      }
+
+      div.cart{
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+        font-size: 30px;
+      } 
+
+      div.underb{
+        color: white;
+        text-align: center;
+        gap: 20px ;
+        display: flex;
+        justify-content: center;
+        margin-right: 100px;
+      }
+
+      div.clear{
+        clear: both;
+      }
+
+      .box1 {grid-area: menu;}
+      .box2 {grid-area: main;}
+      .box3 {grid-area: footer;}
+      .button {grid-area: button;}
+
+      .container1 {
+        display: grid;
+        grid-template-areas: 
+        'menu main main'
+        'menu footer footer';
+
+        justify-content: center;
+        margin-top: 30px;
+        }
+
+        .box1 {
+    height: 260px;
+    width: 650px;
+    margin-right: 4.7px;
+}
+
+img.foto1 {
+    height: 260px;
+    width: 650px;
+}
+
+img.foto2 {
+    height: 127.85px;
+}
+
+.container2 {
+  height: 100px;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellowgreen; */
+}
+
+div .box {
+  width: 50px;
+  height: 50px;
+  background-color: salmon;
+  border-radius: 15px;
+  background-image: url(eevee2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50px;
+}
+    </style>
+  </head>
+  <body>
+    <header class="shopee-top">
+      <div class="container">
+        <nav>
+          <a href="#" class="nav-item">Seller centre</a>
+          <a href="#" class="nav-item">Download</a>
+          <a href="#" class="nav-item">Ikuti kami di ⭐🌟✨</a>
+          <a href="#" class="nav-items">Daftar</a>
+          <a href="#" class="nav-items">Log in</a>
+          <a href="#" class="nav-items">🌍Bahasa Indonesia</a>
+          <a href="#" class="nav-items">❔Bantuan</a>
+          <a href="#" class="nav-items">🔔Notifikasi</a>
+
+            <div  class="clear"></div>
+              <div class="sidebar">
+                <img class="imgshopee"   src="Logo-Shopee.jpg" alt="">
+                <form action="#" target="_blank">
+                    <input class="seach-heres" type="text" name="q" id="" placeholder="Daftar & Dapatkan Voucher Gratis" style="width: 750px;" height="40px;" />
+                    <input class="logo"
+                      type="submit"
+                      value="🔍"
+                      style=" height: 40px; border: none; cursor: pointer; width: 60px; background-color: #f53d2d;border: 1px solid white;"
+                      />
+                      <div class="cart">🛒</div>
+                    </div>
+                    <div class="underb">
+                      <span>Hp Gratis 0 Rupiah Iphone</span>
+                      <span>Setelan Anak Import Terbaru</span>
+                      <span>Gamis Lebaran 2024 Model Gamis Terbaru</span>
+                      <span>Tas Selempang Pria Distro Original</span>
+                     
+                    </div>
+                  </div>
+                </nav>
+              </div>
+    </header> 
+    <section>
+      <div class="container1">
+        <div class="box1">
+            <img src="id-50009109-e5e6b347e87be5fedf51949781ea7f42_xxhdpi.png" alt="Foto 1" class="foto1">
+        </div>
+        <div class="box2">
+            <img src="id-50009109-a1610d82d1896730ed20566f5a85eead_xhdpi.png" alt="Foto 2" class="foto2">
+        </div>
+        <div class="box3">
+            <img src="id-50009109-abdecbc4c09ff774bb3e6f438a298315_xhdpi.jfif" alt="Foto 3" class="foto2">
+        </div>
+      </div>
+      <div class="container2">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+    </section>
+
+  </body>
+</html>
